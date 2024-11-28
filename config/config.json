@@ -1,17 +1,7 @@
 {
-  "use_env_variable":"POSTGRESQL_URL",
+  
   "development": {
-    "username": "tvkhieu",
-    "password": "ps9ymcTX063JPVsvOIHbMh7IT0FwXQeS",
-    "database": "eshop_database",
-    "host": "dpg-ct2ksjrv2p9s73aufti0-a.singapore-postgres.render.com",
-    "dialect": "postgres",
-    "dialectOptions":{
-      "ssl": {
-        "require":true,
-        "rejectUnauthorized":false
-      }
-    }
+    "use_env_variable":"POSTGRESQL_URL"
   },
   "test": {
     "username": "root",
@@ -21,10 +11,7 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "tvkhieu",
-    "password": "ps9ymcTX063JPVsvOIHbMh7IT0FwXQeS",
-    "database": "eshop_database",
-    "host": "dpg-ct2ksjrv2p9s73aufti0-a.singapore-postgres.render.com",
+    "use_env_variable":"POSTGRESQL_URL",
     "dialect": "postgres",
     "dialectOptions":{
       "ssl": {
